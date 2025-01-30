@@ -23,7 +23,7 @@ body {
 #container h1 {
     text-align: center;
     font-size: 2.5rem;
-    color: #d14cb4;
+    color: #000000;
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -48,10 +48,10 @@ body {
 }
 
 #profile img {
-    border-radius: 50%;
+    border-radius: 60%;
     width: 150px;
-    height: 150px;
-    object-fit: cover;
+    height: 170px;
+    object-fit: contain;
 }
 
 /* Date Time */
@@ -94,7 +94,7 @@ details {
 
 details summary {
     width: 97.8%;
-    background-color: rgb(232, 178, 225);
+    background-color: rgb(84, 109, 210);
     padding: 0.83em;
     border-radius: 8px;
     margin-left: 1em;
@@ -146,7 +146,7 @@ footer {
 }
 
 #footer a {
-    color: #c65bbd;
+    color: #5d5bc6;
     text-decoration: none;
 }
 
